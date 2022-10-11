@@ -372,8 +372,6 @@ footer .content .link-boxes{
     transition: all .5s;
 }
 
-
-
 .projects-row {
     display: flex;
     justify-content: center;
@@ -408,6 +406,7 @@ footer .content .link-boxes{
   }
 
 
+/*footerbox*/
 
 .footerbox {
     display: flex;
@@ -475,6 +474,7 @@ footer .content .link-boxes{
     color: #ffffff;
 }
 
+/*responsividade*/
 @media (max-width: 440px) {
     .footer-menu {
         display: flex;
