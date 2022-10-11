@@ -159,7 +159,7 @@ footer .content .link-boxes{
     display: none;
 }
 
-.teste{
+.header-items{
     display: flex;
     flex-direction: row;
     align-items: center;
