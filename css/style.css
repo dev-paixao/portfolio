@@ -195,7 +195,11 @@ footer .content .link-boxes{
 }
 
 .home-content{
-    width: 50%;
+    width: 80%;
+}
+.home-info{
+    width: 60%;
+    margin: 0 auto;
 }
 
 .heading-primary-name{
@@ -220,7 +224,7 @@ footer .content .link-boxes{
 
 .text-primary {
     color: #fff;
-    font-size: max(16px, 1vw);
+    font-size: max(18px, 1.5vw);
     text-align: center;
     width: 100%;
     line-height: 1.6; 
