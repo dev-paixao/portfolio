@@ -31,7 +31,7 @@ header .top {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
-    gap: 600px;
+    gap: 30vw;
 
   }
 
@@ -41,49 +41,43 @@ header .top {
   }
 
   .logo-details h2{
-    font-size: 14px;
+    font-size: max(8px, 0.6vw);
   }
 
   .logo-details h3{
     margin-left: 20px;
-    font-size: 32px;
+    font-size: max(10px, 1.5vw);
   }
 
   header .top .icon-phone {
-    border-radius: 100%;
+    width: 2.5vw;
+    height: 2.5vw;
+    margin: 0 8px;
+    border-radius: 50%;
     text-align: center;
-    width: 40px;
-    height: 40px;
-    vertical-align: middle;
-    transition: 0.5s ease-out;
-    font-size: 17px;
-    background: #fff;
+    line-height: 2.5vw;
+    background: #ffffff;
     color: #000;
-    padding-top: 10px;
-    display: inline-block;
-    margin-right: 10px;
-  }
+    font-size: 1.3vw;
+    text-decoration: none;
+    transition: all 0.4s ease;
 
-  header .top .contact .phone {
-    margin-left: 20px;
-    font-size: 32px;
-    line-height: 32px;
   }
 
   .cabecalho .top .logo-details{
     color: #ffffff;
-    font-size: 30px;
   }
   .cabecalho .top .media-icons{
     display: flex;
   }
   .cabecalho .top .media-icons a{
-    height: 40px;
-    width: 40px;
+
+    width: 2.5vw;
+    height: 2.5vw;
     margin: 0 8px;
     border-radius: 50%;
     text-align: center;
-    line-height: 40px;
+    line-height: 2.5vw;
     color: #ffffff;
     font-size: 17px;
     text-decoration: none;
@@ -196,7 +190,7 @@ footer .content .link-boxes{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 650px;
+    height: 700px;
     background-color: #e8a93f;
 }
 
@@ -324,33 +318,23 @@ footer .content .link-boxes{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     height: 650px;
     background-color: #e8a93f;
 }
 
 .projects-content{
-    width: 50%;
+    width: 90%;
 }
 
 .projects-primary {
     font-size: max(16px, 2vw);
-    text-transform: uppercase;
-    letter-spacing: 3px;
     text-align: center; 
     color: #fff;
 }
 
-.text-projects {
-    color: #fff;
-    font-size: max(16px, 1vw);
-    text-align: center;
-    width: 100%;
-    line-height: 1.6; 
-}
-
 .projects-btn {
-    margin-top: 5rem;
+    margin-top: 5%;
     text-align: center; 
 }
 
@@ -358,7 +342,6 @@ footer .content .link-boxes{
     padding: 3px 3px;
     width: 25%;
     height: 60px;
-    margin-left: 1%;
     border-radius: 3px;
     font-size: max(14px, 1vw);
     background-color: #196d87;
@@ -376,8 +359,7 @@ footer .content .link-boxes{
 
 .projects-row {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
   }
 
   .card {
@@ -388,11 +370,11 @@ footer .content .link-boxes{
     gap: 10px;
     border-radius: 5px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 20px;
+    padding: 10px;
     margin: 20px;
-    width: 400px;
     transition: all 0.3s ease-out;
     border-top: 3px solid #1aa7c4;
+
   }
   .card:hover {
     transform: translateY(-5px);
@@ -405,7 +387,9 @@ footer .content .link-boxes{
   }
    
   .image {
-    width: 100%;
+    max-width: 100%;
+    width: 400px;
+    
   }
 
 
@@ -478,14 +462,6 @@ footer .content .link-boxes{
 }
 
 /*responsividade*/
-@media (max-width: 440px) {
-    .footer-menu {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-}
 
 @media (max-width: 630px) {
     .cabecalho-menu {
