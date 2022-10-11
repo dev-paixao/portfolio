@@ -257,9 +257,9 @@ footer .content .link-boxes{
     transition: all .5s;
 }
 
-/*Conteudo about*/
+/*Conteudo skills*/
 
-.about{
+.skills{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -269,12 +269,12 @@ footer .content .link-boxes{
     background-color: #171818;
 }
 
-.about-content{
+.skills-content{
     width: 50%;
 }
 
 
-.heading-about {
+.heading-skills {
     font-size: max(16px, 2vw);
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -282,11 +282,11 @@ footer .content .link-boxes{
     color: #fff;
 }
 
-.heading-about span{
+.heading-skills span{
     color: #196d87;
 }
 
-.text-about {
+.text-skills {
     color: #fff;
     font-size: max(16px, 1vw);
     text-align: center;
