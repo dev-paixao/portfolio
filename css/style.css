@@ -264,7 +264,7 @@ footer .content .link-boxes{
 }
 
 .skills-content{
-    width: 50%;
+    width: 100%;
 }
 
 .heading-skills {
@@ -319,12 +319,7 @@ footer .content .link-boxes{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 650px;
     background-color: #e8a93f;
-}
-
-.projects-content{
-    width: 90%;
 }
 
 .projects-primary {
@@ -333,33 +328,16 @@ footer .content .link-boxes{
     color: #fff;
 }
 
-.projects-btn {
-    margin-top: 5%;
-    text-align: center; 
-}
-
-.btn {
-    padding: 3px 3px;
-    width: 25%;
-    height: 60px;
-    border-radius: 3px;
-    font-size: max(14px, 1vw);
-    background-color: #196d87;
-    color: #ffffff;
-    cursor: pointer;
-}
-.btn p{
-    font-size: 40px;
-}
-
-.btn:hover {
-    background-color: #1aa7c4;
-    transition: all .5s;
-}
-
 .projects-row {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  .projects-row > div{
+    flex: 1 1 15vw;
   }
 
   .card {
@@ -376,6 +354,7 @@ footer .content .link-boxes{
     border-top: 3px solid #1aa7c4;
 
   }
+  
   .card:hover {
     transform: translateY(-5px);
     cursor: pointer;
@@ -388,10 +367,31 @@ footer .content .link-boxes{
    
   .image {
     max-width: 100%;
-    width: 400px;
-    
   }
 
+.projects-btn {
+    margin: 5% 0 5% 0;
+    text-align: center; 
+}
+
+.btn {
+    padding: 3px 3px;
+    width: 200px;
+    height: 60px;
+    border-radius: 3px;
+    font-size: max(14px, 1vw);
+    background-color: #196d87;
+    color: #ffffff;
+    cursor: pointer;
+}
+.btn p{
+    font-size: 40px;
+}
+
+.btn:hover {
+    background-color: #1aa7c4;
+    transition: all .5s;
+}
 
 /*footerbox*/
 
