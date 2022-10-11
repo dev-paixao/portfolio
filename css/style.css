@@ -314,6 +314,9 @@ footer .content .link-boxes{
 .offer-img{
     width: 50%;
 }
+.offer-img:hover {
+    transform: translateY(-5px);
+}
 
 /*Conteudo projects*/
 
