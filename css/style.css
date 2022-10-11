@@ -390,6 +390,7 @@ footer .content .link-boxes{
     margin: 20px;
     width: 400px;
     transition: all 0.3s ease-out;
+    border-top: 3px solid #1aa7c4;
   }
   .card:hover {
     transform: translateY(-5px);
