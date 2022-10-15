@@ -127,21 +127,9 @@ footer .content .link-boxes{
   }
 
 .cabecalho-img {
-    max-width: 10%;
+    width: 10%;
+    max-width: 700px;
     margin: 30px;
-}
-
-.logo {
-    margin: 45px auto 45px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.img-logo {
-    max-width: 60%;
-    margin: auto;
-    display: block;
 }
 
 .hamburger-menu {
@@ -313,9 +301,9 @@ footer .content .link-boxes{
     transform: translateY(-5px);
 }
 
-/*Conteudo projects*/
+/*Conteudo cards*/
 
-.projects{
+.cards{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -324,13 +312,13 @@ footer .content .link-boxes{
     background-color: #e8a93f;
 }
 
-.projects-primary {
+.cards-primary {
     font-size: max(16px, 2vw);
     text-align: center; 
     color: #fff;
 }
 
-.projects-row {
+.cards-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -338,8 +326,8 @@ footer .content .link-boxes{
     margin: 0 auto;
   }
 
-  .projects-row > div{
-    flex: 1 1 15vw;
+  .cards-row > div{
+    flex: 1 1 300px;
   }
 
   .card {
@@ -367,11 +355,11 @@ footer .content .link-boxes{
     font-size: 16px;
   }
    
-  .image {
-    max-width: 100%;
+  .image-card {
+    width: 100%;
   }
 
-.projects-btn {
+.cards-btn {
     margin: 5% 0 5% 0;
     text-align: center; 
 }
