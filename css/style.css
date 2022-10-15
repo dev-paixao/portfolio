@@ -249,6 +249,7 @@ footer .content .link-boxes{
     justify-content: space-around;
     height: 100vh;
     background-color: #171818;
+
 }
 
 .skills-content{
@@ -256,7 +257,7 @@ footer .content .link-boxes{
 }
 
 .heading-skills {
-    font-size: max(16px, 2vw);
+    font-size: max(16px, 3vw);
     text-transform: uppercase;
     letter-spacing: 20px;
     text-align: center; 
@@ -311,9 +312,10 @@ footer .content .link-boxes{
 }
 
 .cards-primary {
-    font-size: max(16px, 2vw);
+    font-size: max(16px, 3vw);
     text-align: center; 
     color: #fff;
+    margin-top: 7vh;
 }
 
 .cards-row {
@@ -321,7 +323,7 @@ footer .content .link-boxes{
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 1300px;
-    margin: 0 auto;
+    margin: 7vh 0 7vh 0;
   }
 
   .cards-row > div{
@@ -356,30 +358,6 @@ footer .content .link-boxes{
   .image-card {
     width: 100%;
   }
-
-.cards-btn {
-    margin: 5% 0 5% 0;
-    text-align: center; 
-}
-
-.btn {
-    padding: 3px 3px;
-    width: 15vw;
-    height: 7vh;
-    border-radius: 3px;
-    font-size: max(14px, 1vw);
-    background-color: #196d87;
-    color: #ffffff;
-    cursor: pointer;
-}
-.btn p{
-    font-size: 40px;
-}
-
-.btn:hover {
-    background-color: #1aa7c4;
-    transition: all .5s;
-}
 
 /*footerbox*/
 
