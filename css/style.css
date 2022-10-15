@@ -290,6 +290,8 @@ footer .content .link-boxes{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    max-width: 230px;
     gap: 10px;
     
 }
@@ -485,5 +487,24 @@ footer .content .link-boxes{
     .hamburger-menu {
         display: flex;
     }
+
+}
+
+@media (max-width: 480px) {
+    .offer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 300px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .offer > div{
+        flex: 1 1 80px;
+      }
+
+
+
 
 }
