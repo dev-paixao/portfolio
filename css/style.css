@@ -454,6 +454,11 @@ footer .content .link-boxes{
 /*responsividade*/
 
 @media (max-width: 630px) {
+    
+    header .top{
+        display: none;
+    }
+
     .cabecalho-menu {
         display: none;
     }
