@@ -312,10 +312,14 @@ footer .content .link-boxes{
     background-color: #e8a93f;
 }
 
+.card h2{
+    color: #ffffff;
+}
+
 .cards-primary {
     font-size: max(16px, 3vw);
     text-align: center; 
-    color: #fff;
+    color: #196d87;
     margin-top: 7vh;
 }
 
@@ -349,11 +353,6 @@ footer .content .link-boxes{
   .card:hover {
     transform: translateY(-5px);
     cursor: pointer;
-  }
-   
-  .card p {
-    color: #000;
-    font-size: 16px;
   }
    
   .image-card {
