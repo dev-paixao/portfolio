@@ -186,7 +186,7 @@ footer .content .link-boxes{
 }
 
 .heading-primary-name{
-    font-size: max(16px, 2vw);
+    font-size: max(20px, 2vw);
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center; 
@@ -194,7 +194,7 @@ footer .content .link-boxes{
 }
 
 .heading-primary {
-    font-size: max(16px, 3vw);
+    font-size: max(25px, 3vw);
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center; 
