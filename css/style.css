@@ -181,7 +181,8 @@ footer .content .link-boxes{
     width: 80%;
 }
 .home-info{
-    width: 60%;
+    width: 70vw;
+    max-width: 900px;
     margin: 0 auto;
 }
 
