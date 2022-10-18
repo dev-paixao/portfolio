@@ -347,7 +347,7 @@ footer .content .link-boxes{
     padding: 3px;
     margin: 20px;
     transition: all 0.3s ease-out;
-    border-top: 3px solid #1aa7c4;
+    border-bottom: 1px solid #1aa7c4;
     background-color: #eeb451;
 
   }
