@@ -378,11 +378,11 @@ footer .content .link-boxes{
     color: #ffffff;
     cursor: pointer;
 }
-.btn p{
+.button alt p{
     font-size: 40px;
 }
 
-.btn:hover {
+.button alt:hover {
     background-color: #1aa7c4;
     transition: all .5s;
 }
