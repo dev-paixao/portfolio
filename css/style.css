@@ -430,36 +430,77 @@ footer .content .link-boxes{
 /*responsividade*/
 
 @media (max-width: 630px) {
-    
+
+    .header-items{
+        display: none;
+    }
+
     header .top{
         display: none;
     }
+    
+    .one,
+    .two,
+    .three {
+        background-color: #fff;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
 
-    .cabecalho-menu {
-        display: none;
+        transition-duration: 0.3s;
     }
 
-    .cabecalho-menu,
-    .cabecalho-menu-item {
-        flex-direction: column;
+    .menu-toggle{
+        width: 40px;
+        height: 30px;
+        
+
+
     }
 
-    .cabecalho-menu-item {
-        margin: 0;
-        height: 0;
+    /*fullscren*/
+
+    .cabecalho.on{
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 100vh;
+
+        z-index: 10;
+        justify-content: center;
+        align-items: center;
     }
 
-    .cabecalho {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .cabecalho-img {
-        display: none;
-    }
-
-    .hamburger-menu {
+    .cabecalho.on .header-items{
         display: flex;
+        flex-direction: column;
+    }
+
+    .cabecalho.on .cabecalho-menu{
+        display: flex;
+        flex-direction: column;
+        transition-duration: 0.3s;
+        line-height: 2rem;
+    }
+
+    .cabecalho.on .menu-toggle{
+        position: absolute;
+        margin-left: 80vw;
+        top: 15px;
+    }
+
+    .cabecalho.on .menu-toggle .one{
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .cabecalho.on .menu-toggle .two{
+        opacity: 0;
+    }
+
+    .cabecalho.on .menu-toggle .three{
+        transform: rotate(-45deg) translate(8px, -9px);
     }
 
 }
@@ -477,8 +518,4 @@ footer .content .link-boxes{
     .offer > div{
         flex: 1 1 80px;
       }
-
-
-
-
 }
