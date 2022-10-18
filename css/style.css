@@ -366,9 +366,9 @@ footer .content .link-boxes{
     text-align: center; 
 }
 
-.btn {
+.button-alt {
     padding: 3px 3px;
-    width: 25%;
+    width: 8vw;
     min-width: 50px;
     max-height: 40px;
     margin-left: 1%;
@@ -378,11 +378,11 @@ footer .content .link-boxes{
     color: #ffffff;
     cursor: pointer;
 }
-.button alt p{
+.button-alt p{
     font-size: 40px;
 }
 
-.button alt:hover {
+.button-alt:hover {
     background-color: #1aa7c4;
     transition: all .5s;
 }
