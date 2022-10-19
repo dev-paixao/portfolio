@@ -314,7 +314,14 @@ footer .content .link-boxes{
 }
 
 .card h2{
+    margin-top: 2vh;
     color: #ffffff;
+}
+.card p{
+    color: #ffffff;
+    font-size: max(16px, 1vw);
+    text-align: center;
+    margin: 1vh;
 }
 
 .cards-primary {
@@ -346,10 +353,10 @@ footer .content .link-boxes{
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 3px;
     margin: 20px;
+    height: 50vh;
     transition: all 0.3s ease-out;
     border-bottom: 1px solid #1aa7c4;
     background-color: #eeb451;
-
   }
   
   .card:hover {
@@ -360,31 +367,6 @@ footer .content .link-boxes{
   .image-card {
     width: 100%;
   }
-
-  .cards-btn {
-    margin-top: 5rem;
-
-}
-
-.button-alt {
-    padding: 3px 3px;
-    width: 10vw;
-    height: 5vh;
-    min-width: 50px;
-    border-radius: 3px;
-    font-size: max(14px, 1vw);
-    background-color: #196d87;
-    color: #ffffff;
-    cursor: pointer;
-}
-.button-alt p{
-    font-size: 40px;
-}
-
-.button-alt:hover {
-    background-color: #1aa7c4;
-    transition: all .5s;
-}
 
 /*footerbox*/
 
@@ -480,8 +462,7 @@ footer .content .link-boxes{
     .menu-toggle{
         width: 40px;
         height: 30px;
-        
-
+        margin-left: 80vw;
 
     }
 
@@ -508,8 +489,8 @@ footer .content .link-boxes{
     .cabecalho.on .cabecalho-menu{
         display: flex;
         flex-direction: column;
-        transition-duration: 0.3s;
-        line-height: 2rem;
+        line-height: 1rem;
+        text-align: center;
     }
 
     .cabecalho.on .menu-toggle{
