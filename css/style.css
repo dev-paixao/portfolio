@@ -351,9 +351,8 @@ footer .content .link-boxes{
     gap: 10px;
     border-radius: 3px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 3px;
+    padding: 10px;
     margin: 20px;
-    height: 50vh;
     transition: all 0.3s ease-out;
     border-bottom: 1px solid #1aa7c4;
     background-color: #eeb451;
