@@ -217,22 +217,18 @@ footer .content .link-boxes{
 
 .home-btn {
     margin-top: 5rem;
-    text-align: center; 
+    text-align: center;
 }
 
 .btn {
     padding: 3px;
     width: 25%;
-    min-width: 50px;
-    max-height: 40px;
+    min-width: 100px;
     border-radius: 3px;
     font-size: max(14px, 1vw);
     background-color: #196d87;
     color: #ffffff;
     cursor: pointer;
-}
-.btn p{
-    font-size: 40px;
 }
 
 .btn:hover {
