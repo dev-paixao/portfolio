@@ -133,13 +133,9 @@ footer .content .link-boxes{
     filter: invert(100%);
 }
 
-.hamburger-menu {
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    font-size: 36px;
-    cursor: pointer;
+.cabecalho-img-responsive{
     display: none;
+
 }
 
 .header-items{
@@ -433,6 +429,7 @@ footer .content .link-boxes{
 /*responsividade*/
 
 @media (max-width: 630px) {
+
     .header-items{
         display: none;
     }
@@ -460,7 +457,7 @@ footer .content .link-boxes{
         width: 40px;
         height: 30px;
         margin-left: 80vw;
-
+        
     }
 
     /*fullscren*/
