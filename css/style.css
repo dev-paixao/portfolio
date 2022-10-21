@@ -440,6 +440,10 @@ footer .content .link-boxes{
     header .top{
         display: none;
     }
+
+    .btn{
+        width: 80%;
+    }
     
     .one,
     .two,
