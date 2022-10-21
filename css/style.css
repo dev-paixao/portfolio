@@ -221,11 +221,10 @@ footer .content .link-boxes{
 }
 
 .btn {
-    padding: 3px 3px;
+    padding: 3px;
     width: 25%;
     min-width: 50px;
     max-height: 40px;
-    margin-left: 1%;
     border-radius: 3px;
     font-size: max(14px, 1vw);
     background-color: #196d87;
