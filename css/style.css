@@ -438,6 +438,19 @@ footer .content .link-boxes{
         display: none;
     }
 
+    .menu-responsive{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-responsive{
+        display: flex;
+        width: 10%;
+        max-width: 700px;
+        filter: invert(100%);
+    }
+
     .btn{
         width: 80%;
     }
@@ -449,18 +462,20 @@ footer .content .link-boxes{
         height: 2px;
         width: 60%;
         margin: 5px auto;
-
         transition-duration: 0.3s;
     }
 
     .menu-toggle{
         width: 40px;
         height: 30px;
-        margin-left: 80vw;
-
     }
 
     /*fullscren*/
+
+
+    .logo-responsive.off{
+        opacity: 0%;
+    }
 
     .home.on{
         margin-top: 100vh;
@@ -493,8 +508,9 @@ footer .content .link-boxes{
 
     .cabecalho.on .menu-toggle{
         position: absolute;
-        margin-left: 80vw;
-        top: 15px;
+        right: -4vw;
+        margin-right: 10vw;
+        top: 3vh;
     }
 
     .cabecalho.on .menu-toggle .one{
