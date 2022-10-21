@@ -170,7 +170,7 @@ footer .content .link-boxes{
     align-items: center;
     justify-content: space-around;
     height: 100vh;
-    background-color: #e8a93f;
+    background-color: #ffffff;
 }
 
 .home-content{
@@ -188,7 +188,7 @@ footer .content .link-boxes{
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center; 
-    color: #fff;
+    color: #000;
 }
 
 .heading-primary {
@@ -196,7 +196,7 @@ footer .content .link-boxes{
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center; 
-    color: #fff;
+    color: #000;
 }
 
 .heading-primary span{
@@ -204,7 +204,7 @@ footer .content .link-boxes{
 }
 
 .text-primary {
-    color: #fff;
+    color: #000;
     font-size: max(18px, 1.5vw);
     text-align: center;
     width: 100%;
@@ -301,15 +301,15 @@ footer .content .link-boxes{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #e8a93f;
+    background-color: #fff;
 }
 
 .card h2{
     margin-top: 2vh;
-    color: #ffffff;
+    color: #000;
 }
 .card p{
-    color: #ffffff;
+    color: #000;
     font-size: max(16px, 1vw);
     text-align: center;
     margin: 1vh;
@@ -318,7 +318,7 @@ footer .content .link-boxes{
 .cards-primary {
     font-size: max(16px, 3vw);
     text-align: center; 
-    color: #0077B5;
+    color: #000;
     margin-top: 7vh;
 }
 
@@ -346,7 +346,7 @@ footer .content .link-boxes{
     margin: 20px;
     transition: all 0.3s ease-out;
     border-bottom: 1px solid #1aa7c4;
-    background-color: #eeb451;
+    background-color: #f1efea;
   }
   
   .card:hover {
