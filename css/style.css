@@ -439,7 +439,6 @@ footer .content .link-boxes{
 /*responsividade*/
 
 @media (max-width: 630px) {
-
     .header-items{
         display: none;
     }
@@ -467,6 +466,10 @@ footer .content .link-boxes{
     }
 
     /*fullscren*/
+
+    .home.on{
+        margin-top: 100vh;
+    }
 
     .cabecalho.on{
         position: absolute;
