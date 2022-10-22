@@ -506,6 +506,10 @@ footer .content .link-boxes{
         text-align: center;
     }
 
+    .cabecalho-menu-item{
+        font-size: 5vw;
+    }
+
     .cabecalho.on .menu-toggle{
         position: absolute;
         right: -4vw;
