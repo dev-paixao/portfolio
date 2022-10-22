@@ -22,7 +22,7 @@ html{
     align-items: center;
     justify-content: space-between;
     padding: 24px;
-    background-image: linear-gradient(to right, #0077B5,  #196d87);
+    background-image: linear-gradient(to top, #0077b5, #0075aa, #00739e, #047093, #196d87);
 
 }
 
@@ -170,7 +170,7 @@ footer .content .link-boxes{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #ffffff;
+    background-color: #fffafa;
 }
 
 .home-content{
@@ -303,7 +303,7 @@ footer .content .link-boxes{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: #fffafa;
 }
 
 .card h2{
@@ -348,7 +348,7 @@ footer .content .link-boxes{
     margin: 20px;
     transition: all 0.3s ease-out;
     border-bottom: 1px solid #1aa7c4;
-    background-color: #f1efea;
+    background-color: #fff;
   }
   
   .card:hover {
