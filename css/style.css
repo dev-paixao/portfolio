@@ -223,7 +223,7 @@ footer .content .link-boxes{
     width: 25%;
     min-width: 100px;
     border-radius: 3px;
-    font-size: max(14px, 1vw);
+    font-size: max(18px, 1.5vw);
     background-color: #0077B5;
     color: #ffffff;
     cursor: pointer;
