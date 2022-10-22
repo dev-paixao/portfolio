@@ -274,8 +274,8 @@ footer .content .link-boxes{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 0.8vw;
-    margin-top: 100px;
+    gap: 2vw;
+    margin-top: 15vh;
 }
 
 .offer-item{
