@@ -342,7 +342,7 @@ footer .content .link-boxes{
     align-items: center;
     text-align: center;
     gap: 10px;
-    border-radius: 3px;
+    border-radius: 5%;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 10px;
     margin: 20px;
