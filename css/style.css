@@ -22,9 +22,7 @@ html{
     align-items: center;
     justify-content: space-between;
     padding: 24px;
-    background-image: linear-gradient(to top, #00c6fb, #00affe, #0097ff, #007bf9, #005bea);
-    background-repeat: no-repeat;
-    background-color: #fffafa;
+    background-color: #0077B5;
 }
 
 header .top {
@@ -459,8 +457,10 @@ footer .content .link-boxes{
 @media (max-width: 630px) {
     
     .cabecalho {
-    border-bottom-left-radius: 1%;
-    border-bottom-right-radius: 1%;
+        background-image: linear-gradient(to top, #00c6fb, #00affe, #0097ff, #007bf9, #005bea);
+        background-repeat: no-repeat;
+        border-bottom-left-radius: 1%;
+        border-bottom-right-radius: 1%;
     }
 
     .header-items{
