@@ -460,6 +460,11 @@ footer .content .link-boxes{
 /*responsividade*/
 
 @media (max-width: 630px) {
+    
+    .cabecalho {
+    border-bottom-left-radius: 25% 10%;
+    border-bottom-right-radius: 25% 10%;
+    }
 
     .header-items{
         display: none;
