@@ -218,30 +218,14 @@ footer .content .link-boxes{
     text-align: center;
 }
 
-.btn {
-    padding: 3px;
-    width: 25%;
-    min-width: 100px;
-    border-radius: 3px;
-    font-size: max(18px, 1.5vw);
-    background-color: #0077B5;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background-color: #1aa7c4;
-    transition: all .5s;
-}
-
 .button-53 {
     background-color: #0077B5;
     border: 0 solid #E5E7EB;
     box-sizing: border-box;
     color: #000000;
     font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: max(18px, 1.5vw);
+    font-weight: 400;
     justify-content: center;
     line-height: 1.75rem;
     padding: .75rem 1.65rem;
