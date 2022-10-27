@@ -22,7 +22,8 @@ html{
     align-items: center;
     justify-content: space-between;
     padding: 24px;
-    background-image: linear-gradient(to top, #0077b5, #0075aa, #00739e, #047093, #196d87);
+    background-image: linear-gradient(to top, #00c6fb, #00affe, #0097ff, #007bf9, #005bea);
+    background-repeat: no-repeat;
 
 }
 
