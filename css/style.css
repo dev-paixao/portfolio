@@ -17,16 +17,11 @@ html{
 }
 
 .cabecalho {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 24px;
     background-color: #0077B5;
 }
 
 .cabecalho-img {
-    width: 10%;
+    width: 5%;
     max-width: 700px;
     margin: 30px;
     filter: invert(100%);
@@ -41,7 +36,7 @@ html{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .cabecalho-menu {
@@ -458,8 +453,7 @@ footer .top {
 @media (max-width: 630px) {
     
     .cabecalho {
-        background-image: linear-gradient(to top, #00c6fb, #00affe, #0097ff, #007bf9, #005bea);
-        background-repeat: no-repeat;
+        padding: 0 24px 0 24px;
         border-bottom-left-radius: 1%;
         border-bottom-right-radius: 1%;
     }
@@ -529,9 +523,15 @@ footer .top {
         align-items: center;
     }
 
+    .cabecalho.on .cabecalho-img {
+        width: 15%;
+    }
+
     .cabecalho.on .header-items{
         display: flex;
         flex-direction: column;
+        margin-top: 25vh;
+
     }
 
     .cabecalho.on .cabecalho-menu{
