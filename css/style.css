@@ -25,9 +25,6 @@ html{
     background-image: linear-gradient(to top, #00c6fb, #00affe, #0097ff, #007bf9, #005bea);
     background-repeat: no-repeat;
     background-color: #fffafa;
-    border-bottom-left-radius: 2%;
-    border-bottom-right-radius: 2%;
-
 }
 
 header .top {
