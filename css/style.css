@@ -22,11 +22,15 @@ html{
     align-items: center;
     justify-content: space-between;
     padding: 24px;
+<<<<<<< HEAD
     background-image: linear-gradient(to top, #00c6fb, #00affe, #0097ff, #007bf9, #005bea);
     background-repeat: no-repeat;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
 
+=======
+    background-color: #0077B5;
+>>>>>>> 48c1d9fb6a9d45b1bf76a185c12515cc355b33ce
 }
 
 header .top {
@@ -459,6 +463,13 @@ footer .content .link-boxes{
 /*responsividade*/
 
 @media (max-width: 630px) {
+    
+    .cabecalho {
+        background-image: linear-gradient(to top, #00c6fb, #00affe, #0097ff, #007bf9, #005bea);
+        background-repeat: no-repeat;
+        border-bottom-left-radius: 1%;
+        border-bottom-right-radius: 1%;
+    }
 
     .header-items{
         display: none;
