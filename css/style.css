@@ -390,7 +390,7 @@ footer .top {
     color: #ffffff;
     padding: 10px;
     background-color: #171818;
-    height: 10vh;
+    height: 12vh;
 }
 
 .footer .logo-details{
@@ -458,6 +458,7 @@ footer .top {
 @media (max-width: 630px) {
     
     .cabecalho {
+        height: 9vh;
         padding: 0 24px 0 24px;
         border-bottom-left-radius: 1%;
         border-bottom-right-radius: 1%;
