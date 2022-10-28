@@ -469,9 +469,11 @@ footer .top {
     }
     
     .menu-responsive{
+        padding-top: 2vh;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
     }
 
     .logo-responsive{
@@ -524,9 +526,7 @@ footer .top {
         margin: 0;
     }
 
-
     /*fullscren*/
-
 
     .logo-responsive.off{
         opacity: 0%;
@@ -572,7 +572,7 @@ footer .top {
 
     .cabecalho.on .menu-toggle{
         position: absolute;
-        right: -4vw;
+        right: -6vw;
         margin-right: 10vw;
         top: 3vh;
     }
