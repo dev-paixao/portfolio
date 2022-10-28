@@ -286,7 +286,7 @@ footer .top {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
-    gap: 30vw;
+    gap: 10vw;
 
   }
 
@@ -436,6 +436,7 @@ footer .top {
 }
 
 .footer{
+    display: none;
     margin-top: 20px;
 
 }
@@ -446,6 +447,10 @@ footer .top {
     font-size: max(14px, 1vw);
     margin-top: 20px;
     color: #ffffff;
+}
+
+.copy-responsive{
+    display: none;
 }
 
 /*responsividade*/
@@ -461,11 +466,7 @@ footer .top {
     .header-items{
         display: none;
     }
-
-    header .top{
-        display: none;
-    }
-
+    
     .menu-responsive{
         display: flex;
         align-items: center;
@@ -498,6 +499,31 @@ footer .top {
         height: 30px;
     }
 
+    footer .top{
+        display: none;
+    }
+
+    .footer{
+        display: flex;
+    
+    }
+    
+    .copy-responsive{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: max(14px, 1vw);
+        font-weight: 400;
+        font-size: max(14px, 1vw);
+        gap: 10px;
+        margin-top: 20px;
+        color: #ffffff;
+    }
+    .footer-copy{
+        margin: 0;
+    }
+
+
     /*fullscren*/
 
 
@@ -508,7 +534,6 @@ footer .top {
     .home.on{
         margin-top: 100vh;
     }
-
 
     .cabecalho.on{
         position: absolute;
@@ -531,7 +556,6 @@ footer .top {
         display: flex;
         flex-direction: column;
         margin-top: 25vh;
-
     }
 
     .cabecalho.on .cabecalho-menu{
