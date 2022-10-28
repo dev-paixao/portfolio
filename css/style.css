@@ -388,8 +388,9 @@ footer .top {
     align-items: center;
     justify-content: space-around;
     color: #ffffff;
-    padding: 20px;
+    padding: 10px;
     background-color: #171818;
+    height: 10vh;
 }
 
 .footer .logo-details{
@@ -445,7 +446,6 @@ footer .top {
     font-size: max(14px, 1vw);
     font-weight: 400;
     font-size: max(14px, 1vw);
-    margin-top: 20px;
     color: #ffffff;
 }
 
