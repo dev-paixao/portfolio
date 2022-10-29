@@ -454,11 +454,6 @@ footer .top {
 
 
 
-
-
-
-
-
 .footerbox {
     display: flex;
     flex-direction: column;
@@ -596,7 +591,7 @@ footer .top {
         font-weight: 400;
         font-size: max(14px, 1vw);
         gap: 10px;
-        margin-top: 20px;
+        margin: 10px 0 10px 0;  
         color: #ffffff;
     }
     .footer-copy{
