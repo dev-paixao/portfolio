@@ -451,7 +451,7 @@ footer .bottom-details .bottom_text{
     margin: auto;
     padding: 20px 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .bottom-details .bottom_text span,
 .bottom-details .bottom_text a{
