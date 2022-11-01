@@ -425,9 +425,25 @@ footer .content  .link-boxes{
     color: #ffffff;
     background-color: #3c3c3c;
 }
+
 .box .form-sub input::placeholder{
     color: #ffffff;
 }
+
+.box .form-sub textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: max(14px, 0.8vw);
+    outline: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: #3c3c3c;
+}
+
+.box .form-sub textarea::placeholder{
+    color: #ffffff;
+}
+
 .box .form-sub button{
     width: 100%;
     margin-top: 10px;
