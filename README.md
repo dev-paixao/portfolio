@@ -4,4 +4,4 @@
 ## [Demo](https://dev-paixao.github.io/portfolio/)
 
 ## Preview
-![Preview](./img/preview.jpg)
+![Preview](./img/preview.gif))
