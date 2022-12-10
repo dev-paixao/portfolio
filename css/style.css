@@ -226,7 +226,7 @@ html{
     align-items: center;
     justify-content: center;
     background-color: #fffafa;
-    background-image: url(../img/background-parallax.png);
+    /*background-image: url(../img/background-parallax.png);
     position: relative;
     overflow: hidden;
     background-position: 50% 50%;
@@ -236,6 +236,7 @@ html{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    */
 }
 
 .card h2{
