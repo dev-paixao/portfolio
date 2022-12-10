@@ -11,7 +11,11 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 * CSS
 * JavaScript
 
-## [Demo](https://dev-paixao.github.io/portfolio/)
+# :rocket: Acesse o projeto
+
+## [Veja o projeto clicando aqui](https://dev-paixao.github.io/portfolio/)
+
+# :rocket: Prévia do projeto
 
 ## Preview
 ![Preview](./img/preview.gif)
