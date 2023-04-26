@@ -1,21 +1,23 @@
-let show = true;
-let show1 = true; 
-let show2 = true;  
+// Inicializa o estado dos elementos
+let menuVisible = true;
+let homeVisible = true;
+let logoVisible = true;
 
-const menuSection = document.querySelector(".cabecalho")
-const menuToggle = menuSection.querySelector(".menu-toggle")
-const homeSection = document.querySelector(".home")
-const logoSection = document.querySelector(".logo-responsive")
+const menuSection = document.querySelector(".cabecalho");
+const menuToggle = menuSection.querySelector(".menu-toggle");
+const homeSection = document.querySelector(".home");
+const logoSection = document.querySelector(".logo-responsive");
 
 menuToggle.addEventListener("click", () => {
+  // Alterna a visibilidade do menu e atualiza o estado
+  menuSection.classList.toggle("on", menuVisible);
+  menuVisible = !menuVisible;
 
-    menuSection.classList.toggle("on", show)
-    show = !show;
+  // Alterna a visibilidade da seção home e atualiza o estado
+  homeSection.classList.toggle("on", homeVisible);
+  homeVisible = !homeVisible;
 
-    homeSection.classList.toggle("on", show1)
-    show1 = !show2;
-
-    logoSection.classList.toggle("off", show2)
-    show2 = !show2;
-
+  // Alterna a visibilidade do logo e atualiza o estado
+  logoSection.classList.toggle("off", logoVisible);
+  logoVisible = !logoVisible;
 })
