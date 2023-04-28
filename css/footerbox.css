@@ -1,0 +1,142 @@
+footer{
+    padding: 50px 0;
+    font-size: 100% ; 
+    background-color: #0077B5;  
+}
+
+footer::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100px;
+    height: 1px;
+    width: 100%;
+  }
+
+  footer .content{
+    max-width: 1250px;
+    margin: auto;
+    padding: 30px 40px 40px 40px;
+  }
+  
+footer .content  .link-boxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+.box{
+    width: 25%;
+    padding: 0 10px;
+}
+
+.box h4{
+    font-size: max(16px, 1.2vw);
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin: 6px 0;
+}
+
+.box ul li a{
+    font-size: max(14px, 0.8vw);
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.box ul li a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.box .form-sub label{
+    color: #ffffff;
+    font-size: max(14px, 0.8vw);
+}
+
+.box .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: max(14px, 0.8vw);
+    outline: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: #3c3c3c;
+}
+
+.box .form-sub input::placeholder{
+    color: #ffffff;
+}
+
+.box .form-sub textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: max(14px, 0.8vw);
+    outline: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: #3c3c3c;
+}
+
+.box .form-sub textarea::placeholder{
+    color: #ffffff;
+}
+
+.box .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px; 
+    font-size: max(14px, 0.8vw);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #3c3c3c;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+footer .bottom-details{
+    width: 100%;
+    
+}
+
+footer .bottom-details .bottom_text{
+    max-width: 1250px;
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a{
+    font-size: max(14px, 0.8vw);
+    font-weight: 300;
+    color: #fff;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.bottom-details .bottom_text a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.bottom-details .bottom_text a{
+    margin-right: 10px;
+}

@@ -1,0 +1,74 @@
+.cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffafa;
+    /*background-image: url(../img/background-parallax.png);
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    */
+}
+
+.card h2{
+    margin-top: 2vh;
+    color: #000;
+}
+
+.card p{
+    color: #000;
+    font-size: max(16px, 1vw);
+    text-align: center;
+    margin: 1vh;
+}
+
+.cards-primary {
+    font-size: max(16px, 2vw);
+    text-align: center; 
+    color: #000;
+    margin-top: 7vh;
+}
+
+.cards-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 7vh 0 7vh 0;
+}
+
+  .cards-row > div{
+    flex: 1 1 300px;
+    }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    border-radius: 5%;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 10px;
+    margin: 20px;
+    transition: all 0.3s ease-out;
+    border-bottom: 1px solid #0077B5;
+    background-color: #fff;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+   
+  .image-card {
+    width: 100%;
+  }
