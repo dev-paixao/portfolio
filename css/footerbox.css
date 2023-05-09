@@ -123,7 +123,7 @@ footer .bottom-details .bottom_text{
     justify-content: center;
 }
 
-.bottom-details .bottom_text span,
+.bottom-details .bottom_text span, p,
 .bottom-details .bottom_text a{
     font-size: max(14px, 0.8vw);
     font-weight: 300;
