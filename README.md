@@ -1,7 +1,6 @@
 # :rocket: Sobre o Projeto
 
-Portfólio pessoal onde exponho alguns projetos que já desenvolvi. 
-É um projeto pessaol onde utilizei todo meu conhecimento inicial de HTML, CSS e JS. Este projeto é responsivo, ajustável a todos os tamanho de tela.
+Apresento meu portfólio pessoal com alguns projetos que desenvolvi, demonstrando todo o conhecimento inicial que adquiri em HTML, CSS e JS. Esse projeto é responsivo, adaptando-se a diferentes tamanhos de tela.
 
 # :rocket: Tecnologias utilizadas
 
