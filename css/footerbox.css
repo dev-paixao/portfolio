@@ -140,3 +140,15 @@ footer .bottom-details .bottom_text{
 .bottom-details .bottom_text a{
     margin-right: 10px;
 }
+
+@media (max-width: 800px) {
+    .box{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .box{
+        width: 100%;
+    }
+}
