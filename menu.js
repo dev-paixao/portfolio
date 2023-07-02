@@ -3,7 +3,7 @@ let menuVisible = true;
 let homeVisible = true;
 let logoVisible = true;
 
-const menuSection = document.querySelector(".cabecalho");
+const menuSection = document.querySelector(".header");
 const menuToggle = menuSection.querySelector(".menu-toggle");
 const homeSection = document.querySelector(".home");
 const logoSection = document.querySelector(".logo-responsive");
@@ -20,4 +20,5 @@ menuToggle.addEventListener("click", () => {
   // Alterna a visibilidade do logo e atualiza o estado
   logoSection.classList.toggle("off", logoVisible);
   logoVisible = !logoVisible;
-})
+});
+
