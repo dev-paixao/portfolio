@@ -120,7 +120,9 @@ html {
         margin-top: 2vh;
     }
 
-    .toggle-line {
+    .one,
+    .two,
+    .three {
         background-color: #fff;
         height: 2px;
         width: 60%;
@@ -179,6 +181,7 @@ html {
     }
 
     .header.on .header-logo {
+        margin-bottom: 20px;
         width: 15%;
     }
 
@@ -201,8 +204,8 @@ html {
 
     .header.on .menu-toggle {
         position: absolute;
-        right: -6vw;
-        margin-right: 10vw;
+        right: -7vw;
+        margin-right: 14vw;
         top: 3vh;
     }
 
