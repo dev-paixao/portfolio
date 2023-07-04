@@ -66,6 +66,12 @@ window.addEventListener('load', animateElements);
 // Adicione um evento de clique suave para cada item de menu
 var menuItems = document.querySelectorAll('.header-menu-item');
 menuItems.forEach(function (menuItem) {
+    var link = menuItem.getAttribute('href');
+    if (link.startsWith('http') || link.startsWith('https')) {
+        // É um link externo, não aplicar o evento de clique suave
+        return;
+    }
+
     menuItem.addEventListener('click', function (event) {
         event.preventDefault();
         var target = event.target.getAttribute('href');
