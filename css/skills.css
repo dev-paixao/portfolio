@@ -13,7 +13,7 @@
 }
 
 .heading-skills {
-    font-size: max(20px, 2vw);
+    font-size: max(24px, 4vw);
     text-transform: uppercase;
     letter-spacing: 20px;
     text-align: center;
@@ -26,7 +26,7 @@
 
 .text-skills {
     color: #ffff;
-    font-size: max(16px, 1vw);
+    font-size: max(16px, 1.52vw);
     text-align: center;
 }
 

@@ -31,7 +31,7 @@
 }
 
 .cards-primary {
-    font-size: max(16px, 2vw);
+    font-size: max(18px, 2.47vw);
     text-align: center; 
     color: #000;
     margin-top: 7vh;
@@ -60,7 +60,7 @@
     padding: 10px;
     margin: 20px;
     transition: all 0.3s ease-out;
-    border-bottom: 1px solid #0077B5;
+    border-bottom: 35px solid #0077B5;
     background-color: #fff;
   }
   
