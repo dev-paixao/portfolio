@@ -33,7 +33,7 @@
 }
 
 .heading-primary {
-    font-size: max(24px, 4vw);
+    font-size:  calc(1.813rem + 1vw);
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 600;
@@ -48,13 +48,13 @@
 
 .text-primary {
     color: #000;
-    font-size: max(14px, 2.47vw);
+    font-size:  calc(1.120rem + 0.6vw);
     text-align: center;
     line-height: 5vh; 
 }
 
 .contacte-btn {
-    margin-top: 7vh;
+    margin-top: 20vh;
     text-align: center;
 }
 
@@ -63,7 +63,7 @@
     border: 0 solid #E5E7EB;
     box-sizing: border-box;
     color: #fff;
-    font-size: max(12px, 1.52vw);
+    font-size: calc(1.120rem + 0.6vw);
     text-transform: uppercase;
     justify-content: center;
     line-height: 1.75rem;

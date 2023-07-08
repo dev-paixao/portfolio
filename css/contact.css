@@ -10,7 +10,7 @@
 
 .heading-contact{
     margin-bottom: 7vh;
-    font-size: max(18px, 2.47vw);
+    font-size: calc(1.120rem + 0.7vw);
     text-transform: uppercase;
     letter-spacing: 10px;
     text-align: center; 
