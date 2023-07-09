@@ -74,8 +74,8 @@ footer .content  .link-boxes{
     font-size: max(14px, 0.8vw);
     outline: none;
     border: 1px solid #ffffff;
-    color: #ffffff;
-    background-color: #3c3c3c;
+    color: var(--color-secondary);
+    background-color: var(--input-bg);
 }
 
 .box .form-sub input::placeholder{
@@ -89,7 +89,7 @@ footer .content  .link-boxes{
     outline: none;
     border: 1px solid #ffffff;
     color: #ffffff;
-    background-color: #3c3c3c;
+    background-color: var(--input-bg);
 }
 
 .box .form-sub textarea::placeholder{
@@ -100,14 +100,14 @@ footer .content  .link-boxes{
     width: 100%;
     margin-top: 10px;
     padding: 10px; 
-    font-size: max(14px, 0.8vw);
+    font-size: var(--fs-6);
     outline: none;
     border: none;
     cursor: pointer;
     color: #3c3c3c;
     border-radius: 3px;
     font-weight: bold;
-    background-color: #fff;
+    background-color: var(--btn-bg-2);
 }
 
 footer .bottom-details{
@@ -125,9 +125,9 @@ footer .bottom-details .bottom_text{
 
 .bottom-details .bottom_text span, p,
 .bottom-details .bottom_text a{
-    font-size: max(14px, 0.8vw);
-    font-weight: 300;
-    color: #fff;
+    font-size: var(--fs-6);
+    font-weight: var(--fw-400);
+    color: var(--color-secondary);
     opacity: 0.8;
     text-decoration: none;
 }

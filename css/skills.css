@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #171818;
+    background-color: var(--bg-secondary);
 }
 
 .skills-content {
@@ -13,20 +13,20 @@
 }
 
 .heading-skills {
-    font-size: calc(1.813rem + 1vw);
+    font-size: var(--fs-1);
     text-transform: uppercase;
-    letter-spacing: 20px;
+    letter-spacing: 10px;
     text-align: center;
-    color: #fff;
+    color: var(--color-secondary);
 }
 
 .heading-skills span {
-    color: #0077B5;
+    color: var(--color-tertiary);
 }
 
 .text-skills {
-    color: #ffff;
-    font-size: calc(1.120rem + 0.6vw);
+    color: var(--color-secondary);
+    font-size: var(--fs-2);
     text-align: center;
 }
 
