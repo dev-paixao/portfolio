@@ -18,7 +18,30 @@
     */
 }
 
+.cards-primary {
+  font-size: var(--fs-2);
+  text-align: center; 
+  color: var(--collor-primary);
+  margin-top: 7vh;
+}
+
+.card-text h2{
+  font-size:  var(--fs-2);
+  color: var(--collor-primary);
+  text-align: center;
+
+}
+
+.card-text p{
+  color: var(--collor-primary);
+  font-size:  var(--fs-4);
+  text-align: center;
+  margin: 1vh;
+  text-align: center;
+}
+
 .card h2{
+    font-size:  var(--fs-4);
     margin-top: 2vh;
     color: var(--collor-primary);
 }
@@ -28,13 +51,6 @@
     font-size: var(--fs-3);
     text-align: center;
     margin: 1vh;
-}
-
-.cards-primary {
-    font-size: var(--fs-2);
-    text-align: center; 
-    color: var(--collor-primary);
-    margin-top: 7vh;
 }
 
 .cards-row {
@@ -82,18 +98,3 @@
     padding: 10px;
     margin: 20px;
   }
-
-  .card-text h2{
-    font-size:  var(--fs-2);
-    color: #000;
-    text-align: center;
-
-}
-
-.card-text p{
-    color: var(--collor-primary);
-    font-size:  var(--fs-4);
-    text-align: center;
-    margin: 1vh;
-    text-align: center;
-}

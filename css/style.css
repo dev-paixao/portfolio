@@ -71,3 +71,27 @@ html {
     font-weight: 800;
     text-transform: uppercase;
 }
+
+.logo {
+
+    position: relative;
+    min-width: 77px;
+    z-index: 2;
+  }
+  
+  .logo a {
+    color: var(--color-secondary);
+    font-size: var(--fs-3);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+  
+  .logo span {
+    font-size: var(--fs-3);
+    display: inline-block;
+    color: #CC3300;
+    margin-left: 2px;
+  }

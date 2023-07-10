@@ -40,7 +40,7 @@
     width: 100%;
 }
 
-.contact-icons h2{
+.contact-icons h3{
     color: var(--color-secondary);
     font-size: var(--fs-4);
 }
