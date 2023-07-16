@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: var(--bg-primary);
+    background-color: $bg-white;
     /*background-image: url(../img/background-parallax.png);
     position: relative;
     overflow: hidden;
@@ -33,22 +33,22 @@
 }
 
 .heading-primary {
-    font-size:  var(--fs-1);
+    font-size:  $fs-1;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-weight: var(--fw-600);
+    font-weight: $fw-600;
     text-align: center; 
-    color: var(--color-primary);
+    color: $color-black;
     margin: 0px;
 }
 
 .heading-primary span{
-    color: var(--color-tertiary);
+    color: $color-blue;
 }
 
 .text-primary {
-    color: var(--color-primary);
-    font-size:  var(--fs-2);
+    color: $color-black;
+    font-size:  $fs-2;
     text-align: center;
     line-height: 5vh; 
 }
@@ -59,11 +59,11 @@
 }
 
 .button-contacte {
-    background-color: var(--btn-bg);
+    background-color: $btn-bg-blue;
     border: 0 solid #E5E7EB;
     box-sizing: border-box;
-    color: var(--color-secondary);
-    font-size: var(--fs-3);
+    color: $color-white;
+    font-size: $fs-3;
     text-transform: uppercase;
     justify-content: center;
     line-height: 1.75rem;

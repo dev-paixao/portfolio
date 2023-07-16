@@ -4,18 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="shortcut icon" href="img/icons8-portfólio-30.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Dosis:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/icons8-portfólio-30.png">
    <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/skills.css">
-    <link rel="stylesheet" href="css/cards.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/footerbox.css">
-    <link rel="stylesheet" href="css/animations.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    
+    <link rel="stylesheet" href="styles.css">
+
     <title>portifolio</title>
 </head>
 <body>
@@ -44,7 +41,7 @@
         </div>
     
         <div class="menu-responsive">
-            <img class="logo-responsive" src="img/devpaixao-logo.png" alt="logo Encurtador">
+            <img class="logo-responsive" src="assets/img/devpaixao-logo.png" alt="logo Encurtador">
             <div class="menu-toggle">
                 <div class="one"></div>
                 <div class="two"></div>
@@ -84,27 +81,27 @@
 
                 <div class="offer">
                     <div class="offer-item">
-                        <img class="offer-img" src="img/icons8-html.png" alt="HTML5">
+                        <img class="offer-img" src="assets/img/icons8-html.png" alt="HTML5">
                         <p class="text-skills">HTML</p>
                     </div>
                     <div class="offer-item">
-                        <img class="offer-img" src="img/icons8-css3.png" alt="CSS3">
+                        <img class="offer-img" src="assets/img/icons8-css3.png" alt="CSS3">
                         <p class="text-skills">CSS</p>
                     </div>
                     <div class="offer-item">
-                        <img class="offer-img" src="img/icons8-logotipo-javascript.png" alt="JAVASCRIPT">
+                        <img class="offer-img" src="assets/img/icons8-logotipo-javascript.png" alt="JAVASCRIPT">
                         <p class="text-skills">JAVASCRIPT</p>
                     </div>
                     <div class="offer-item">
-                        <img class="offer-img" src="img/icons8-unity.png" alt="UNITY">
+                        <img class="offer-img" src="assets/img/icons8-unity.png" alt="UNITY">
                         <p class="text-skills">UNITY</p>
                     </div>
                     <div class="offer-item">
-                        <img class="offer-img" src="img/icons8-c-afiado-logotipo.png" alt="C SHARP">
+                        <img class="offer-img" src="assets/img/icons8-c-afiado-logotipo.png" alt="C SHARP">
                         <p class="text-skills">C SHARP</p>
                     </div>
                     <div class="offer-item">
-                        <img class="offer-img" src="img/icons8-git.png" alt="">
+                        <img class="offer-img" src="assets/img/icons8-git.png" alt="">
                         <p class="text-skills">GIT</p>
                     </div>
                 </div>
@@ -128,72 +125,87 @@
                 </div>
 
                 <div class="card">
-                    <a href="https://dev-paixao.github.io/pomodoro-clock/" target="_blank">
-                        <img class="image-card" src="img/projetos-img/pomodoro-img.jpg" alt="Relógio Pomodoro" />
-                    </a>
-                    <h2>Pomodoro Clock</h2>
-                    <p>Aplique o método de gerenciamento de tempo com este relógio construído com HTML, CSS e JavaScript</p>
+                    <div class="image">
+                        <img class="image-card" src="assets/img/projetos-img/citacoes-img.jpg" alt="gerador de citações românticas"/>
+                    </div>
+                
+                    <div class="content">
+                        <h2 class="title">Gerador Romântico</h2>
+                        <p>Um gerador de citações românticas em JavaScript, usando tecnologias DOM e Fetch.</p>
+                        <div class="info">
+                            <a href="https://dev-paixao.github.io/GeradorRomantico/" target="_blank">
+                                <p class="btn-project">Live Demo</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="image">
+                        <img class="image-card" src="assets/img/projetos-img/encurtar.jpg" alt="Encurtador de URL" />
+                    </div>
+                
+                    <div class="content">
+                        <h2 class="title">Encurtador de URL</h2>
+                        <p>Simplifique o compartilhamento de URLs longas encurtador baseado em tecnologia de compactação.</p>
+                        <div class="info">
+                            <a href="https://dev-paixao.github.io/encurtador-url/" target="_blank">
+                                <p class="btn-project">Live Demo</p>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="card">
-                    <a href="https://dev-paixao.github.io/GeradorRomantico/" target="_blank">
-                        <img class="image-card" src="img/projetos-img/citacoes-img.jpg" alt="gerador de citações românticas" />
-                    </a>
-                    <h2>Gerador Romantico</h2>
-                    <p>Um gerador de citações românticas em JavaScript, usando tecnologias DOM e Fetch.</p>
+                    <div class="image">
+                        <img class="image-card" src="assets/img/projetos-img/qr.jpg" alt="Gerador de QRCode" />
+                    </div>
+                
+                    <div class="content">
+                        <h2 class="title">Gerador de QRCode</h2>
+                        <p>Crie QR codes de forma rápida e intuitiva com o QRCreator, a aplicação utiliza o QRServer para a geração dos QR codes.</p>
+                        <div class="info">
+                            <a href="https://dev-paixao.github.io/gerador-qrcode/" target="_blank">
+                                <p class="btn-project">Live Demo</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="image">
+                        <img class="image-card" src="assets/img/projetos-img/prime.jpg" alt="Clone Amazon" />
+                    </div>
+                
+                    <div class="content">
+                        <h2 class="title">Clone Amazon</h2>
+                        <p>Recriação da interface da Amazon Prime Video com HTML e CSS</p>
+                        <div class="info">
+                            <a href="https://dev-paixao.github.io/prime-landingpage-template/" target="_blank">
+                                <p class="btn-project">Live Demo</p>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="card">
-                    <a href="https://dev-paixao.github.io/pokedex/" target="_blank">
-                        <img class="image-card" src="img/projetos-img/pokeguide-img.jpg" alt="Pokémons" />
-                    </a>
-                    <h2>Pokédex</h2>
-                    <p>Explore Pokémons com esta aplicação web usando a tecnologia RESTful API.</p>
+                    <div class="image">
+                        <img class="image-card" src="assets/img/projetos-img/tempocerto.jpg" alt="Tempo Certo" />
+                    </div>
+                
+                    <div class="content">
+                        <h2 class="title">Tempo Certo</h2>
+                        <p>Aplicação web em HTML, CSS e JavaScript que utiliza a API Weather API para informações meteorológicas.</p>
+                        <div class="info">
+                            <a href="https://dev-paixao.github.io/TempoCerto/" target="_blank">
+                                <p class="btn-project">Live Demo</p>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="card">
-                    <a href="https://dev-paixao.github.io/encurtador-url/" target="_blank">
-                        <img class="image-card" src="img/projetos-img/encurtar.jpg" alt="Encurtador de URL" />
-                    </a>
-                    <h2>Encurtador de URL</h2>
-                    <p>Simplifique o compartilhamento de URLs longas com nosso encurtador baseado em tecnologia de compactação.</p>
-                </div>
-           
-                <div class="card">
-                    <a href="https://dev-paixao.github.io/gerador-qrcode/" target="_blank">
-                        <img class="image-card" src="img/projetos-img/qr.jpg" alt="Gerador de QRCode" />
-                    </a>
-                    <h2>Gerador de QRCode</h2>
-                    <p>Crie QR codes de forma rápida e intuitiva com o QRCreator, a aplicaçãoutiliza o QRServer para a geração dos QR codes.</p>
-                </div>
-
-                <div class="card">
-                    <a href="https://dev-paixao.github.io/prime-landingpage-template/" target="_blank">
-                        <img class="image-card" src="img/projetos-img/prime.jpg" alt="Clone Amazon" />
-                    </a>
-                    <h2>Clone Amazon</h2>
-                    <p>Recriação da interface da Amazon Prime Video com HTML e CSS</p>
-              </div>
-
-              <div class="card">
-                    <a href="https://dev-paixao.github.io/clone-netflix-login/" target="_blank">
-                        <img class="image-card" src="img/projetos-img/clonenetflix.jpg" alt="landing page coffee" />
-                    </a>
-                    <h2>Clone Netflix</h2>
-                    <p>Demonstração de um clone da página de login da Netflix feito com HTML e CSS.</p>
-                </div>
-
-
-                <div class="card">
-                    <a href="https://dev-paixao.github.io/TempoCerto/" target="_blank">
-                      <img class="image-card" src="img/projetos-img/tempocerto.jpg" alt="Tempo Certo" />
-                    </a>
-                    <h2>Tempo Certo</h2>
-                    <p>Aplicação web em HTML, CSS e JavaScript que utiliza a API Weather API para informações meteorológicas.</p>
-                </div>
-
+                
             </div>
-    
+ 
         </section>
 
         <!-- end section  three-->
@@ -282,8 +294,8 @@
         </div>
 
     </footer>
-<script src="js/menu.js"></script>
-<script src="js/copy.js"></script>
-<script src="js/animations.js"></script>
+<script src="assets/js/menu.js"></script>
+<script src="assets/js/copy.js"></script>
+<script src="assets/js/animations.js"></script>
 </body>
 </html>

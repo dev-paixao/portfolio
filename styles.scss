@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: 0;
+    
+}
+
+@import "assets/components/colors";
+@import "assets/components/typography";
+@import "assets/components/header";
+@import "assets/components/home";
+@import "assets/components/skills";
+@import "assets/components/projects";
+@import "assets/components/contacts";
+@import "assets/components/baseboard";
+@import "assets/components/responsive";
+@import "assets/components/animations";
+
+body {
+    font-size: 100%;
+    font-family: 'Dosis', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button{
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+}
+
+svg{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}

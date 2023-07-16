@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: var(--bg-secondary);
+    background-color: $bg-black;
 }
 
 .skills-content {
@@ -13,20 +13,20 @@
 }
 
 .heading-skills {
-    font-size: var(--fs-1);
+    font-size: $fs-1;
     text-transform: uppercase;
     letter-spacing: 10px;
     text-align: center;
-    color: var(--color-secondary);
+    color: $color-white;
 }
 
 .heading-skills span {
-    color: var(--color-tertiary);
+    color: $color-blue;
 }
 
 .text-skills {
-    color: var(--color-secondary);
-    font-size: var(--fs-4);
+    color: $color-white;
+    font-size: $fs-4;
     text-align: center;
 }
 
