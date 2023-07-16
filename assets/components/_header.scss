@@ -1,24 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Dosis', sans-serif;
-}
-
-body {
-    font-size: 100%;
-}
-
-html {
-    scroll-behavior: smooth;
-}
 
 .header {
-    background-color: var(--bg-tertiary);
+    background-color: $bg-blue;
     padding: 30px 0;
 }
 
@@ -44,9 +26,9 @@ html {
 }
 
 .header-menu-item {
-    color: var(--color-secondary);
+    color: $color-white;
     font-weight: 600;
-    font-size:  var(--fs-3);
+    font-size:  var($fs-3);
     padding: 10px;
 }
 
@@ -57,17 +39,41 @@ html {
 
 .btn-outline {
     background: 0 0;
-    color: var(--color-secondary);
+    color: $color-white;
     border: 2px solid #fff;
     padding: 10px 30px;
     text-transform: uppercase;
 }
 
 .btn-primary {
-    background: var(--btn-bg-2);
-    color: var( --color-tertiary);
+    background: $btn-bg-white;
+    color: $color-blue;
     border: 0;
     padding: 10px 30px;
     font-weight: 800;
     text-transform: uppercase;
 }
+
+.logo {
+
+    position: relative;
+    min-width: 77px;
+    z-index: 2;
+  }
+  
+  .logo a {
+    color: $color-white;
+    font-size: $fs-3;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+  
+  .logo span {
+    font-size: $fs-3;
+    display: inline-block;
+    color: $color-red;
+    margin-left: 2px;
+  }
