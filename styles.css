@@ -69,12 +69,6 @@
   text-transform: uppercase;
 }
 
-.logo {
-  position: relative;
-  min-width: 77px;
-  z-index: 2;
-}
-
 .logo a {
   color: #ffffff;
   font-size: clamp(1rem, 1rem + 0.5vw, 1.5rem);
@@ -82,13 +76,16 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
+  cursor: default;
 }
 
 .logo span {
-  font-size: clamp(1rem, 1rem + 0.5vw, 1.5rem);
-  display: inline-block;
-  color: #ff5902;
   margin-left: 2px;
+}
+
+.logo:hover span {
+  color: #ff5902;
+  transition: width 0.3s;
 }
 
 .home {
@@ -324,7 +321,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 1300px;
-  margin: 7vh 0 7vh 0;
+  margin: 7vh 0;
 }
 
 .cards-row > div {
@@ -406,7 +403,7 @@
   gap: 10vw;
   flex-wrap: wrap;
   width: 75vw;
-  margin: 7vh 0 7vh 0;
+  margin: 7vh 0;
 }
 
 .contact-row > div {
@@ -439,6 +436,14 @@
   font-size: max(27px, 4vw);
   text-decoration: none;
   transition: all 0.4s ease;
+}
+
+.contact-icons i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .contact-row .contact-icons a {
@@ -484,7 +489,7 @@ footer .content .link-boxes {
 }
 
 .box h4 {
-  font-size: max(16px, 1.2vw);
+  font-size: clamp(1rem, 1rem + 0.5vw, 1.5rem);
   color: #ffffff;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -502,7 +507,7 @@ footer .content .link-boxes {
 }
 
 .box ul li a {
-  font-size: max(14px, 0.8vw);
+  font-size: 1rem;
   text-transform: capitalize;
   color: #ffffff;
   text-decoration: none;
@@ -524,7 +529,7 @@ footer .content .link-boxes {
 .box .form-sub input {
   width: 100%;
   padding: 10px;
-  font-size: max(14px, 0.8vw);
+  font-size: clamp(0.8rem, 0.6rem + 0.4vw, 1.2rem);
   outline: none;
   border: 1px solid #ffffff;
   color: #ffffff;
@@ -542,7 +547,7 @@ footer .content .link-boxes {
 .box .form-sub textarea {
   width: 100%;
   padding: 10px;
-  font-size: max(14px, 0.8vw);
+  font-size: clamp(0.8rem, 0.6rem + 0.4vw, 1.2rem);
   outline: none;
   border: 1px solid #ffffff;
   color: #ffffff;
@@ -690,9 +695,9 @@ footer .bottom-details .bottom_text {
     justify-content: center;
     align-items: center;
   }
-  .header.on .header-logo {
-    margin-bottom: 20px;
-    width: 15%;
+  .header.on .logo a {
+    margin-bottom: 30px;
+    font-size: clamp(1rem, 1rem + 2vw, 3.5rem);
   }
   .header.on .header-items {
     display: flex;
@@ -701,6 +706,7 @@ footer .bottom-details .bottom_text {
   }
   .header.on .header-menu {
     display: flex;
+    gap: 30px;
     flex-direction: column;
     line-height: 1rem;
     text-align: center;
@@ -780,4 +786,12 @@ img {
 a {
   cursor: pointer;
   text-decoration: none;
+}
+
+textarea {
+  font-family: "Dosis", sans-serif;
+}
+
+input {
+  font-family: "Dosis", sans-serif;
 }/*# sourceMappingURL=styles.css.map */

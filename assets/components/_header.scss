@@ -58,13 +58,6 @@
     font-weight: 800;
     text-transform: uppercase;
 }
-
-.logo {
-
-    position: relative;
-    min-width: 77px;
-    z-index: 2;
-  }
   
   .logo a {
     color: $color-white;
@@ -73,12 +66,15 @@
     align-items: center;
     flex-direction: row;
     justify-content: center;
+    cursor: default;
 
   }
   
   .logo span {
-    font-size: $fs-4;
-    display: inline-block;
-    color: $color-red;
     margin-left: 2px;
+  }
+  
+  .logo:hover span {
+    color: $color-red;
+    transition: width 0.3s;
   }
