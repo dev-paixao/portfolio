@@ -1,0 +1,35 @@
+/*========== Colors ==========*/
+
+// Cores de fundo
+$bg-primary: #ffffff;
+$bg-secondary: #171818;
+$bg-tertiary: #0077B5;
+
+// Cores de fundo para botões
+$btn-bg-primary: #0077B5;
+$btn-bg-secondary: #ffffff;
+
+// Cor de fundo para inputs
+$input-bg-primary: #3c3c3c;
+
+// Cores de texto e outros elementos
+$color-primary: #000000;
+$color-secondary: #ffffff;
+$color-tertiary: #0077B5;
+$color-quaternary: #ff5902;
+
+/*========== Font and typography ==========*/
+
+$fs-1: clamp(1rem, calc(1rem + 2vw), 3.5rem);
+$fs-2: clamp(1rem, calc(1rem + 1.5vw),  3rem);
+$fs-3: 1rem;
+$fs-4: clamp(1rem, calc(1rem + 0.5vw), 1.5rem);
+$fs-5: clamp(0.8rem, calc(0.6rem + 0.4vw), 1.2rem);
+
+
+/*========== Font weight ==========*/
+
+$fw-400: 400;
+$fw-600: 600;
+$fw-700: 700;
+$fw-800: 800;

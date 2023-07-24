@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: 0;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Dosis', sans-serif;
+}
+
+button{
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+}
+
+svg{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+textarea{
+    font-family: 'Dosis', sans-serif;
+}
+
+input{
+    font-family: 'Dosis', sans-serif;
+}

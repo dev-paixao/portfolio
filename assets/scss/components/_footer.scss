@@ -1,0 +1,151 @@
+// Estilização do elemento <footer>
+footer {
+    padding: 50px 0;
+    font-size: 100%;
+    background-color: $bg-tertiary;
+  
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 100px;
+      height: 1px;
+      width: 100%;
+    }
+  
+    // Estilização do conteúdo dentro do elemento <footer>
+    .content {
+      max-width: 1250px;
+      margin: auto;
+      padding: 30px 40px 40px 40px;
+  
+      // Estilização dos blocos de links
+      .link-boxes {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+  
+        // Estilização de cada bloco individual
+        .box {
+          width: 25%;
+          padding: 0 10px;
+  
+          h4 {
+            font-size: $fs-4;
+            color: $color-secondary;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            font-weight: 500;
+            position: relative;
+            text-transform: uppercase;
+          }
+  
+          ul {
+            list-style: none;
+  
+            // Estilização dos itens da lista dentro do bloco
+            li {
+              margin: 6px 0;
+              a {
+                font-size: $fs-3;
+                text-transform: capitalize;
+                color: $color-secondary;
+                text-decoration: none;
+                font-weight: $fw-400;
+                display: block;
+                transition: all 0.3s ease;
+  
+                &:hover {
+                  opacity: 1;
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+  
+          // Estilização do formulário de contato dentro do bloco
+          .form-sub {
+            label {
+              color: #ffffff;
+              font-size: max(14px, 0.8vw);
+            }
+  
+            input {
+              width: 100%;
+              padding: 10px;
+              font-size: $fs-5;
+              outline: none;
+              border: 1px solid $color-secondary;
+              color: $color-secondary;
+              background-color: $input-bg-primary;
+  
+              &::placeholder {
+                color: $color-secondary;
+              }
+            }
+  
+            textarea {
+              width: 100%;
+              padding: 10px;
+              font-size: $fs-5;
+              outline: none;
+              border: 1px solid $color-secondary;
+              color: $input-bg-primary;
+              background-color: $input-bg-primary;
+  
+              &::placeholder {
+                color: $color-secondary;
+              }
+            }
+  
+            button {
+              width: 100%;
+              margin-top: 10px;
+              padding: 10px;
+              font-size: $fs-5;
+              outline: none;
+              border: none;
+              cursor: pointer;
+              color: #3c3c3c;
+              border-radius: 3px;
+              font-weight: bold;
+              background-color: $btn-bg-secondary;
+            }
+          }
+        }
+      }
+    }
+  
+    // Estilização dos detalhes inferiores do elemento <footer>
+    .bottom-details {
+      width: 100%;
+  
+      .bottom_text {
+        max-width: 1250px;
+        margin: auto;
+        padding: 20px 40px;
+        display: flex;
+        justify-content: center;
+  
+        span,
+        p,
+        a {
+          font-size: $fs-5;
+          font-weight: $fw-400;
+          color: $color-secondary;
+          opacity: 0.8;
+          text-decoration: none;
+  
+          &:hover {
+            opacity: 1;
+            text-decoration: underline;
+          }
+        }
+  
+        a {
+          margin-right: 10px;
+        }
+      }
+    }
+  }

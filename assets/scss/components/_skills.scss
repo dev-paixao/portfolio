@@ -1,0 +1,67 @@
+.skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: $bg-secondary;
+  
+    // Estilos do cabeçalho "heading-skills"
+    .heading-skills {
+      font-size: $fs-2;
+      text-transform: uppercase;
+      letter-spacing: 10px;
+      text-align: center;
+      color: $color-secondary;
+  
+      // Estilos do span dentro do cabeçalho
+      span {
+        color: $color-tertiary;
+      }
+    }
+  
+    // Estilos do conteúdo principal "skills-content"
+    .skills-content {
+      width: 100%;
+  
+      // Estilos da seção de "offer"
+      .offer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2vw;
+        margin-top: 15vh;
+  
+        // Estilos dos itens "offer-item"
+        .offer-item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          max-width: 230px;
+          gap: 10px;
+          @extend .animated-element; // Reutilização de estilos de outra classe chamada ".animated-element"
+  
+          // Estilos da imagem da "offer-img"
+          .offer-img {
+            width: 50%;
+  
+            // Efeito de transformação no hover da imagem
+            &:hover {
+              transform: translateY(-5px);
+            }
+          }
+  
+          // Estilos do texto descritivo da "text-skills"
+          .text-skills {
+            color: $color-secondary;
+            font-size: $fs-4;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  

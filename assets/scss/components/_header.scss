@@ -1,0 +1,82 @@
+// Estilização do header
+.header {
+  background-color: $bg-tertiary;
+  padding: 30px 0;
+
+  // Ocultar logo em telas responsivas
+  .logo-responsive {
+    display: none;
+  }
+
+  // Itens do header (logo e menus)
+  .header-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    // Estilização dos menus do header
+    .header-menu {
+      display: flex;
+      gap: 2vw;
+
+      // Estilização dos itens do menu do header
+      .header-menu-item {
+        color: $color-secondary;
+        font-weight: 600;
+        font-size:  var($fs-3);
+        padding: 10px;
+        position: relative;
+
+        // Efeito de sublinhado expandindo ao passar o mouse sobre os itens do menu
+        &:hover {
+          &::after {
+            @include expandUnderline($color-quaternary, 2px);
+            width: 100%;
+          }
+        }
+      }
+
+      // Estilização dos botões do tipo outline
+      .btn-outline {
+        background: 0 0;
+        color: $color-secondary;
+        border: 2px solid $color-secondary;
+        padding: 10px 30px;
+        text-transform: uppercase;
+      }
+
+      // Estilização dos botões do tipo primary
+      .btn-primary {
+        background: $btn-bg-secondary;
+        color: $color-tertiary;
+        border: 0;
+        padding: 10px 30px;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  // Estilização da logo
+  .logo a {
+    color: $color-secondary;
+    font-size: $fs-4;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    cursor: default;
+
+    // Estilização do texto dentro da logo
+    span {
+      margin-left: 2px;
+    }
+
+    // Efeito de cor ao passar o mouse sobre o texto da logo
+    &:hover span {
+      color: $color-quaternary;
+      transition: width 0.3s;
+    }
+  }
+}

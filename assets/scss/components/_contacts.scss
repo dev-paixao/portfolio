@@ -1,0 +1,82 @@
+.contact {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $bg-secondary;
+
+  // Estilos do cabeçalho da seção "contact"
+  .heading-contact {
+    margin-bottom: 7vh;
+    font-size: $fs-2;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    color: $color-secondary;
+  }
+
+  // Estilos da "contact-row"
+  .contact-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10vw;
+    flex-wrap: wrap;
+    width: 75vw;
+    margin: 7vh 0;
+
+    // Estilos dos elementos filhos da "contact-row"
+    > div {
+      flex: 1 1 70px;
+    }
+
+    // Estilos do bloco de ícones de contato
+    .contact-icons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      @extend .animated-element;
+
+      a {
+        width: max(40px, 6vw);
+        height: max(40px, 6vw);
+        border-radius: 50%;
+        text-align: center;
+        color: $color-secondary;
+        font-size: max(27px, 4vw);
+        text-decoration: none;
+        transition: all 0.4s ease;
+        background: $btn-bg-primary;
+
+        // Efeito de hover nos ícones
+        &:hover {
+          color: $btn-bg-primary;
+          background: $bg-primary;
+        }
+
+        i {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      // Estilos do cabeçalho h3
+      h3 {
+        color: $bg-primary;
+        font-size: $fs-4;
+      }
+
+      // Estilos do parágrafo p
+      p {
+        color: $bg-primary;
+        font-size: $fs-5;
+      }
+    }
+  }
+}

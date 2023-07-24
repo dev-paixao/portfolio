@@ -1,0 +1,21 @@
+/*=============== CLASSES DE CSS REUTILIZÁVEIS ===============*/
+
+
+// mixin para a estilização
+@mixin heading-borders($border-color: $color-quaternary) {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  
+    span {
+      border: 2px solid $border-color;
+      width: 70%;
+      margin-bottom: 20px;
+    }
+  }
+
+  /*========== Uso da classe como um mixin ==========*/
+
+  .heading-borders {
+    @include heading-borders;
+  }

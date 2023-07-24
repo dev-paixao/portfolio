@@ -1,0 +1,99 @@
+.home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: $bg-primary;
+
+  // Seção de conteúdo da "home"
+  .home-content {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+
+    // Estilos do título principal
+    .heading-primary {
+      font-size: $fs-1;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-weight: $fw-600;
+      text-align: center;
+      color: $color-primary;
+      margin: 0px;
+
+      // Estilos do texto destacado no título
+      span {
+        color: $color-tertiary;
+      }
+    }
+
+    // Estilos das informações da "home"
+    .home-info {
+      width: 70vw;
+      max-width: 900px;
+      margin: 0 auto;
+
+      // Estilos do texto primário
+      .text-primary {
+        color: $color-primary;
+        font-size: $fs-2;
+        text-align: center;
+        line-height: 5vh;
+      }
+    }
+
+    // Botão de contato
+    .contacte-btn {
+      margin-top: 20vh;
+      text-align: center;
+
+      // Estilos de animação
+      @extend .animated-element;
+
+      // Estilos do botão de contato
+      .button-contacte {
+        background-color: $btn-bg-primary;
+        border: 0 solid $color-secondary;
+        box-sizing: border-box;
+        color: $color-secondary;
+        font-size: $fs-3;
+        text-transform: uppercase;
+        justify-content: center;
+        line-height: 1.75rem;
+        padding: 0.75rem 1.65rem;
+        text-align: center;
+        text-decoration: none $color-primary solid;
+        width: 80%;
+        max-width: 460px;
+        position: relative;
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+
+        // Estilos para a animação de hover do botão
+        &:focus {
+          outline: 0;
+        }
+
+        &:after {
+          content: '';
+          position: absolute;
+          border: 1px solid $color-primary;
+          bottom: 4px;
+          left: 4px;
+          width: calc(100% - 1px);
+          height: calc(100% - 1px);
+        }
+
+        &:hover:after {
+          bottom: 2px;
+          left: 2px;
+        }
+      }
+    }
+  }
+}

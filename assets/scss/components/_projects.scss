@@ -1,0 +1,119 @@
+/* Estilos para o elemento "cards" */
+.cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $bg-primary;
+
+  // Estilos para o elemento "cards-primary" *
+  .cards-primary {
+    font-size: $fs-2;
+    text-align: center;
+    color: $color-primary;
+    margin-top: 7vh;
+  }
+
+  // Estilos para a seção de "cards-row"
+  .cards-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 7vh 0;
+
+    // Estilos para os elementos filhos (div) dentro da "cards-row"
+    > div {
+      flex: 1 1 300px;
+    }
+
+    // Estilos para o elemento "card-text" dentro de "cards-row"
+    .card-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+      padding: 10px;
+      margin: 20px;
+
+      // Estilos para o elemento "h2" dentro de "card-text"
+      h2 {
+        font-size: $fs-2;
+        color: $color-primary;
+        text-align: center;
+      }
+
+      // Estilos para o elemento "p" (parágrafo) dentro de "card-text"
+      p {
+        color: $color-primary;
+        font-size: $fs-4;
+        text-align: center;
+        margin: 1vh;
+      }
+    }
+
+    // Estilos para o elemento "card" dentro de "cards-row"
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+      border-radius: 1%;
+      box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+      padding: 10px;
+      margin: 20px;
+      transition: all 0.3s ease-out;
+      background-color: $bg-primary;
+
+      // Estilos para o efeito hover do elemento "card"
+      &:hover {
+        transform: translateY(-10px);
+      }
+
+      // Estilos para o elemento "content" dentro de "card"
+      .content {
+        margin: 5px;
+
+        // Estilos para o elemento "title" dentro de "content"
+        .title {
+          font-size: $fs-4;
+          margin-top: 2vh;
+          color: $color-primary;
+        }
+
+        // Estilos para o elemento "p" (parágrafo) dentro de "content"
+        p {
+          color: $color-primary;
+          font-size: $fs-3;
+          font-weight: $fw-400;
+          text-align: center;
+          margin: 1vh;
+        }
+
+        // Estilos para o elemento "info" dentro de "content"
+        .info {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+
+          // Estilos para o elemento "image-card" dentro de "info"
+          .image-card {
+            width: 100%;
+            overflow: hidden;
+          }
+        }
+
+        // Estilos para o elemento "btn-project" dentro de "content"
+        .btn-project {
+          padding: 5px 20px;
+          border-radius: 2px;
+          color: $color-secondary;
+          background-color: $btn-bg-primary;
+        }
+      }
+    }
+  }
+}
