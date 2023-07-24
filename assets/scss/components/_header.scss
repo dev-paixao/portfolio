@@ -2,6 +2,7 @@
 .header {
   background-color: $bg-tertiary;
   padding: 30px 0;
+}
 
   // Ocultar logo em telas responsivas
   .logo-responsive {
@@ -79,4 +80,3 @@
       transition: width 0.3s;
     }
   }
-}
