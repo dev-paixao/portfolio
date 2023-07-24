@@ -25,6 +25,17 @@
   margin-top: 7vh;
 }
 
+.heading-borders {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+}
+.heading-borders span {
+	border: 2px solid $color-blue;
+	width: 70%;
+	margin-bottom: 20px;
+}
+
 .card-text h2{
   font-size: $fs-2;
   color: $color-black;
@@ -60,7 +71,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 1300px;
-    margin: 7vh 0 7vh 0;
+    margin: 7vh 0;
 }
 
   .cards-row > div{

@@ -106,9 +106,9 @@
         align-items: center;
     }
 
-    .header.on .header-logo {
-        margin-bottom: 20px;
-        width: 15%;
+    .header.on .logo a {
+        margin-bottom: 30px;
+        font-size: $fs-1;
     }
 
     .header.on .header-items {
@@ -119,6 +119,7 @@
 
     .header.on .header-menu {
         display: flex;
+        gap: 30px;
         flex-direction: column;
         line-height: 1rem;
         text-align: center;
@@ -160,5 +161,9 @@
 
     .offer>div {
         flex: 1 1 80px;
+    }
+
+    .heading-skills h2 span {
+        display: block; 
     }
 }

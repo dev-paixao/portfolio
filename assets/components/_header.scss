@@ -1,12 +1,6 @@
-
 .header {
     background-color: $bg-blue;
     padding: 30px 0;
-}
-
-.header-logo {
-    width: 3%;
-    filter: invert(100%);
 }
 
 .logo-responsive {
@@ -30,12 +24,23 @@
     font-weight: 600;
     font-size:  var($fs-3);
     padding: 10px;
+    position: relative;
 }
 
-.header-menu-item:hover {
-    opacity: 1;
-    text-decoration: underline;
-}
+.header-menu-item::after {
+    content: "";
+    display: block;
+    width: 0;
+    border-bottom: 2px solid $color-red; /* Definir a cor e a espessura do sublinhado */
+    position: absolute;
+    bottom: -2px; /* Ajuste a posição vertical do sublinhado */
+    left: 0;
+    transition: width 0.3s; /* Adicionar uma transição para animar o sublinhado */
+  }
+  
+  .header-menu-item:hover::after {
+    width: 100%; /* Expandir o sublinhado no hover */
+  }
 
 .btn-outline {
     background: 0 0;
@@ -53,27 +58,23 @@
     font-weight: 800;
     text-transform: uppercase;
 }
-
-.logo {
-
-    position: relative;
-    min-width: 77px;
-    z-index: 2;
-  }
   
   .logo a {
     color: $color-white;
-    font-size: $fs-3;
+    font-size: $fs-4;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
+    cursor: default;
 
   }
   
   .logo span {
-    font-size: $fs-3;
-    display: inline-block;
-    color: $color-red;
     margin-left: 2px;
+  }
+  
+  .logo:hover span {
+    color: $color-red;
+    transition: width 0.3s;
   }
