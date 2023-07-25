@@ -61,9 +61,8 @@
       align-items: center;
       text-align: center;
       gap: 10px;
-      border-radius: 1%;
+      border-radius: 5%;
       box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-      padding: 10px;
       margin: 20px;
       transition: all 0.3s ease-out;
       background-color: $bg-primary;
@@ -110,10 +109,18 @@
         .btn-project {
           padding: 5px 20px;
           border-radius: 2px;
-          color: $color-secondary;
-          background-color: $btn-bg-primary;
+          color: $color-quaternary;
+          font-weight: $fw-600;
         }
       }
     }
+  }
+}
+
+// Estilos para o elemento "image"
+.card {
+  .image {
+    border-radius: 5% 5% 0 0;
+    overflow: hidden;
   }
 }
