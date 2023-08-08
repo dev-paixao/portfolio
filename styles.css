@@ -2,10 +2,12 @@
 /*========== Colors ==========*/
 /*========== Font and typography ==========*/
 /*========== Font weight ==========*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700;800&display=swap");
 * {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   text-decoration: none;
   outline: 0;
@@ -17,11 +19,9 @@ html {
 
 body {
   font-size: 100%;
-  font-family: "Dosis", sans-serif;
 }
 
 button {
-  font-family: "Dosis", sans-serif;
   cursor: pointer;
 }
 
@@ -36,14 +36,6 @@ img {
 a {
   cursor: pointer;
   text-decoration: none;
-}
-
-textarea {
-  font-family: "Dosis", sans-serif;
-}
-
-input {
-  font-family: "Dosis", sans-serif;
 }
 
 /*=============== CLASSES DE CSS REUTILIZÁVEIS ===============*/
@@ -89,8 +81,11 @@ input {
 
 .header {
   background-color: #0077B5;
-  padding: 30px 0;
+  padding: 22px 0;
   border-bottom: 2px solid #ff5902;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
 .logo-responsive {
@@ -109,7 +104,7 @@ input {
 }
 .header-items .header-menu .header-menu-item {
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 400;
   font-size: var(1rem);
   padding: 10px;
   position: relative;
@@ -128,22 +123,24 @@ input {
 .header-items .header-menu .btn-outline {
   background: 0 0;
   color: #ffffff;
-  border: 2px solid #ffffff;
-  padding: 10px 30px;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  padding: 9px 18px;
   text-transform: uppercase;
 }
 .header-items .header-menu .btn-primary {
   background: #ffffff;
   color: #0077B5;
+  font-weight: 600;
+  border-radius: 6px;
   border: 0;
-  padding: 10px 30px;
-  font-weight: 800;
+  padding: 9px 18px;
   text-transform: uppercase;
 }
 
 .logo a {
   color: #ffffff;
-  font-size: clamp(1rem, 1rem + 0.5vw, 1.5rem);
+  font-size: 1rem;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -165,8 +162,8 @@ input {
 
 .menu .bar {
   display: block;
-  width: 28px;
-  height: 3px;
+  width: 25px;
+  height: 2px;
   border-radius: 3px;
   background: #ffffff;
   margin: 5px auto;
@@ -624,14 +621,18 @@ footer .bottom-details .bottom_text a {
   .menu {
     display: block;
   }
+  .header-items {
+    justify-content: space-between;
+    margin: 0 3% 0 3%;
+  }
   .menu.ativo .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+    transform: translateY(7px) rotate(45deg);
   }
   .menu.ativo .bar:nth-child(2) {
     opacity: 0;
   }
   .menu.ativo .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-7px) rotate(-45deg);
   }
   .header-menu {
     position: fixed;

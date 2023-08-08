@@ -1,8 +1,12 @@
 // Estilização do header
 .header {
   background-color: $bg-tertiary;
-  padding: 30px 0;
+  padding: 22px 0;
   border-bottom: 2px solid $color-quaternary;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+
 }
 
   // Ocultar logo em telas responsivas
@@ -25,7 +29,7 @@
       // Estilização dos itens do menu do header
       .header-menu-item {
         color: $color-secondary;
-        font-weight: 600;
+        font-weight: $fw-400;
         font-size:  var($fs-3);
         padding: 10px;
         position: relative;
@@ -43,8 +47,9 @@
       .btn-outline {
         background: 0 0;
         color: $color-secondary;
-        border: 2px solid $color-secondary;
-        padding: 10px 30px;
+        border: 1px solid $color-secondary;
+        border-radius: 6px;
+        padding: 9px 18px;
         text-transform: uppercase;
       }
 
@@ -52,9 +57,10 @@
       .btn-primary {
         background: $btn-bg-secondary;
         color: $color-tertiary;
+        font-weight: $fw-600;
+        border-radius: 6px;
         border: 0;
-        padding: 10px 30px;
-        font-weight: 800;
+        padding: 9px 18px;
         text-transform: uppercase;
       }
     }
@@ -63,7 +69,7 @@
   // Estilização da logo
   .logo a {
     color: $color-secondary;
-    font-size: $fs-4;
+    font-size: $fs-3;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -88,8 +94,8 @@
 }
 .menu .bar{
     display: block;
-    width: 28px;
-    height: 3px;
+    width: 25px;
+    height: 2px;
     border-radius: 3px;
     background: $color-secondary;
     margin: 5px auto;

@@ -17,8 +17,14 @@
     display: block;
   }
 
+  .header-items {
+    justify-content: space-between;
+    margin: 0 3% 0 3% ;  
+  }
+
+  
   .menu.ativo .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+    transform: translateY(7px) rotate(45deg);
   }
 
   .menu.ativo .bar:nth-child(2) {
@@ -26,7 +32,7 @@
   }
 
   .menu.ativo .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-7px) rotate(-45deg);
   }
 
   .header-menu {

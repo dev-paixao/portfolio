@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     text-decoration: none;
     outline: 0;
@@ -14,11 +17,9 @@ html {
 
 body {
     font-size: 100%;
-    font-family: 'Dosis', sans-serif;
 }
 
 button{
-    font-family: 'Dosis', sans-serif;
     cursor: pointer;
 }
 
@@ -33,12 +34,4 @@ img{
 a{
     cursor: pointer;
     text-decoration: none;
-}
-
-textarea{
-    font-family: 'Dosis', sans-serif;
-}
-
-input{
-    font-family: 'Dosis', sans-serif;
 }
