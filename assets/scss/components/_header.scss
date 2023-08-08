@@ -2,6 +2,7 @@
 .header {
   background-color: $bg-tertiary;
   padding: 30px 0;
+  border-bottom: 2px solid $color-quaternary;
 }
 
   // Ocultar logo em telas responsivas
@@ -80,3 +81,22 @@
       transition: width 0.3s;
     }
   }
+
+  .menu{
+    cursor: pointer;
+    display: none;
+}
+.menu .bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    background: $color-secondary;
+    margin: 5px auto;
+    transition: all 0.3s;
+}
+.menu .bar:nth-child(1),
+.menu .bar:nth-child(3){
+    background: $color-quaternary;
+}
+

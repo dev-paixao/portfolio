@@ -1,25 +1,36 @@
-// Inicializa o estado dos elementos
-let menuVisible = true;
-let homeVisible = true;
-let logoVisible = true;
+const menu = document.querySelector('.menu');
+const NavMenu = document.querySelector('.header-menu');
 
-// Seleciona os elementos do menu, home e logo
-const menuSection = document.querySelector(".header");
-const menuToggle = menuSection.querySelector(".menu-toggle");
-const homeSection = document.querySelector(".home");
-const logoSection = document.querySelector(".logo-responsive");
+function desativarMenu() {
+  menu.classList.remove('ativo');
+  NavMenu.classList.remove('ativo');
+}
 
-// Adiciona um ouvinte de evento ao clique do botão de menu
-menuToggle.addEventListener("click", () => {
-  // Alterna a visibilidade do menu e atualiza o estado
-  menuSection.classList.toggle("on", menuVisible);
-  menuVisible = !menuVisible;
+function ativarMenu() {
+  menu.classList.add('ativo');
+  NavMenu.classList.add('ativo');
+}
 
-  // Alterna a visibilidade da seção home e atualiza o estado
-  homeSection.classList.toggle("on", homeVisible);
-  homeVisible = !homeVisible;
+function redimensionamentoTela() {
+  if (window.innerWidth > 630) {
+    desativarMenu();
+  }
+}
 
-  // Alterna a visibilidade do logo e atualiza o estado
-  logoSection.classList.toggle("off", logoVisible);
-  logoVisible = !logoVisible;
+// Desativa o menu quando a página é carregada
+desativarMenu();
+
+// Adiciona um ouvinte de evento 'click' ao botão de menu
+menu.addEventListener('click', () => {
+  if (menu.classList.contains('ativo')) {
+    desativarMenu();
+  } else {
+    ativarMenu();
+  }
 });
+
+// Adiciona o ouvinte de evento 'scroll'
+window.addEventListener('scroll', desativarMenu);
+
+// Adiciona o ouvinte de evento 'resize' para lidar com o redimensionamento da tela
+window.addEventListener('resize', redimensionamentoTela);
